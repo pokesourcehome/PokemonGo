@@ -6,7 +6,6 @@ nav {
     gap: 25px;
     align-items: center;
     justify-content: center;
-    display: flex;
   }
 
 .search-box {
@@ -219,11 +218,10 @@ input[type=checkbox] {
     margin: 20px;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
-    /* Title Images */
     #logotext {
-        position: none;
+        position: static;
+        width: 600px;
     }
 
     #dots {
@@ -250,7 +248,7 @@ input[type=checkbox] {
 
     #titleimage, #title4image {
         width: 40px;
-        height: auto; /* Maintain aspect ratio */
+        height: auto;
         margin: 0;
     }
 
@@ -293,10 +291,9 @@ input[type=checkbox] {
         text-align: center;
     }
 
-    /* Title 4 Container */
     #title4-container {
-        flex-direction: column; /* Stack items vertically on small screens */
-        margin: 15px; /* Reduced margin for smaller screens */
+        flex-direction: column;
+        margin: 15px;
     }
 
     input[type=checkbox] {
@@ -305,48 +302,47 @@ input[type=checkbox] {
     }
 
     #big-pokemoncount-container {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        align-items: center; /* Center align items when stacked */
+        flex-direction: column;
+        align-items: center;
     }
 
     #pokemon-buttons {
-        margin: 10px; /* Reduce margin for smaller screens */
+        margin: 10px;
     }
 
     li {
-        gap: 10px; /* Reduced gap between items */
-        flex-direction: column; /* Stack elements vertically on small screens */
+        gap: 10px;
+        flex-direction: column;
         margin-right: 20px;
     }
 
     label {
-        padding: 8px; /* Reduced padding for smaller screens */
-        font-size: 14px; /* Adjust font size for better readability */
+        padding: 8px;
+        font-size: 14px;
     }
 
     img {
-        width: 40px; /* Smaller image size for mobile */
-        height: auto; /* Maintain aspect ratio */
+        width: 40px;
+        height: auto;
         margin: 0;
     }
 
     .result-box {
-        max-height: 150px; /* Increase max height for small screens to accommodate more content */
+        max-height: 150px;
         width: 100%;
     }
 
     .result-box ul {
-        padding: 0 10px; /* Padding stays the same */
-        margin: 0; /* Reset default margin for better control */
+        padding: 0 10px;
+        margin: 0;
     }
 
     .result-box ul li {
-        font-size: 14px; /* Slightly reduce font size on smaller screens */
-        padding: 12px 8px; /* Adjust padding for a more compact look */
+        font-size: 14px;
+        padding: 12px 8px;
     }
 }
 
-/* Extra mobile styles for very small screens */
 @media (max-width: 480px) {
     #title1 {
         font-size: 40px;
@@ -376,7 +372,8 @@ input[type=checkbox] {
     }
 
     #logotext {
-        position: none;
+        position: static;
+        width: 480px;
     }
 }
 
