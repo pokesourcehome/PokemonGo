@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div id="MainLogo">
-        <img src="LogoTextWhite.png" id="logotext">
-    </div>
     <nav id="topnav">
+        <div id="MainLogo">
+            <img src="LogoTextWhite.png" id="logotext">
+        </div>
         <div id="home">
             <button id="button-home" onclick="home()"><i class="fa-solid fa-house"></i></button>
         </div>
@@ -24,7 +24,7 @@
         </div>
     </div>
 </nav>
-<nav>
+<nav id="topnav2">
     <button id="nav2buttons-1" onclick="checklist()">Checklist</button>
     <br>
     <button id="nav2buttons-2" onclick="attackers()">Power-Up</button>

@@ -220,8 +220,13 @@ input[type=checkbox] {
 
 @media (max-width: 768px) {
     #logotext {
-        position: static;
-        width: 600px;
+        max-width: calc(100% - 10px); /* Keep it within screen margins */
+    }
+
+    #MainLogo {
+        padding: 5px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Ensure font size is readable on small screens */
+        flex-direction: column; /* Stack items vertically */
     }
 
     #dots {
@@ -253,7 +258,18 @@ input[type=checkbox] {
     }
 
     #topnav {
+        height: 30vh;
+        align-items: end;
+    }
+
+    #home {
+        height: 6vh;
+    }
+
+    #topnav2 {
         height: 10vh;
+        align-items: center;
+        justify-content: center;
     }
 
     /* Titles */
@@ -372,9 +388,15 @@ input[type=checkbox] {
     }
 
     #logotext {
-        position: static;
-        width: 480px;
+        max-width: calc(100% - 20px); /* Keep it within screen margins */
     }
+
+    #MainLogo {
+        padding: 5px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Ensure font size is readable on small screens */
+        flex-direction: column; /* Stack items vertically */
+    }
+
 }
 
 #bottomnav {
@@ -575,14 +597,20 @@ input[type=checkbox] {
     transform: scale(1.05);
   }
 
-#logotext {
+  #logotext {
     display: flex;
     top: 2.5vh;
     left: 25px;
     width: auto;
     position: absolute;
+    max-width: calc(100% - 30px); /* Ensure it doesn't go off-screen */
+    overflow: hidden; /* Hide overflow if necessary */
 }
 
 #MainLogo {
     background-color: #333;
+    display: flex; /* Ensures content within has flex properties */
+    align-items: center; /* Aligns items vertically within flex container */
+    justify-content: center; /* Center items horizontally */
+    padding: 10px; /* Padding for better appearance */
 }
