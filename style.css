@@ -4,8 +4,9 @@ nav {
     padding: 2%;
     display: flex;
     gap: 25px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
 .search-box {
@@ -35,6 +36,7 @@ nav {
     font-size: 22px;
     cursor: pointer;
     display: flex;
+    justify-content: center;
 }
 
 button {
@@ -220,6 +222,10 @@ input[type=checkbox] {
 /* Responsive Styles */
 @media (max-width: 768px) {
     /* Title Images */
+    #logotext {
+        position: none;
+    }
+
     #dots {
         cursor: pointer;
         display: flex;
@@ -367,6 +373,10 @@ input[type=checkbox] {
         align-items: center;
         text-align: center;
         width: 7.5%;
+    }
+
+    #logotext {
+        position: none;
     }
 }
 
@@ -567,3 +577,15 @@ input[type=checkbox] {
   .pokemon:hover {
     transform: scale(1.05);
   }
+
+#logotext {
+    display: flex;
+    top: 2.5vh;
+    left: 25px;
+    width: auto;
+    position: absolute;
+}
+
+#MainLogo {
+    background-color: #333;
+}
