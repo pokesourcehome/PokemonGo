@@ -344,7 +344,7 @@ input[type=checkbox] {
     }
 
     .result-box {
-        max-height: 150px;
+        max-height: 90px;
         width: 100%;
     }
 
@@ -356,6 +356,10 @@ input[type=checkbox] {
     .result-box ul li {
         font-size: 14px;
         padding: 12px 8px;
+    }
+
+    .row {
+        width: 100px;
     }
 }
 
@@ -397,6 +401,9 @@ input[type=checkbox] {
         flex-direction: column; /* Stack items vertically */
     }
 
+    .row {
+        width: 100px;
+    }
 }
 
 #bottomnav {
