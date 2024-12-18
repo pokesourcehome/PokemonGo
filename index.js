@@ -2709,6 +2709,7 @@ function Bulbasaur() {
     document.getElementById("Bulbasaur-container").style.display = "block";
     document.getElementById("mega-container").style.display = "none";
     document.getElementById("attackers-container").style.display = "none";
+    document.getElementById("main-container").style.display = "none";
 }
 
 function openLeekduck1() {
