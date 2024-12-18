@@ -358,8 +358,9 @@ input[type=checkbox] {
         padding: 12px 8px;
     }
 
-    .row {
-        width: 100px;
+    .search-box {
+        width: 500px;
+        font-size: 14px;
     }
 }
 
@@ -401,8 +402,9 @@ input[type=checkbox] {
         flex-direction: column; /* Stack items vertically */
     }
 
-    .row {
-        width: 100px;
+    .search-box {
+        width: 500px;
+        font-size: 14px;
     }
 }
 
