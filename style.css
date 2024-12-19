@@ -345,7 +345,8 @@ input[type=checkbox] {
 
     .result-box {
         max-height: 90px;
-        width: 40%;
+        width: 250px;
+        max-width: 250px;
     }
 
     .result-box ul li {
@@ -353,7 +354,8 @@ input[type=checkbox] {
     }
 
     .search-box {
-        width: 80%;
+        width: 250px;
+        max-width: 250px;
         font-size: 14px;
         margin-right: 30px;
     }
