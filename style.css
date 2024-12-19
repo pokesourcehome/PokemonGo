@@ -359,7 +359,7 @@ input[type=checkbox] {
     }
 
     .search-box {
-        width: 100%;
+        width: 80%;
         font-size: 14px;
         margin-right: 30px;
     }
@@ -404,7 +404,7 @@ input[type=checkbox] {
     }
 
     .search-box {
-        width: 100%;
+        width: 80%;
         font-size: 14px;
         margin-right: 30px;
     }
