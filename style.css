@@ -346,11 +346,7 @@ input[type=checkbox] {
     .result-box {
         max-height: 90px;
         width: 80%;
-        margin-right: 30px;
-    }
-
-    .result-box ul {
-        padding: 0 10px;
+        max-width: 235.4px;
     }
 
     .result-box ul li {
@@ -428,10 +424,6 @@ input[type=checkbox] {
         max-height: 90px;
         width: 80%;
         margin-right: 30px;
-    }
-
-    .result-box ul {
-        padding: 0 10px;
     }
 
     .result-box ul li {
