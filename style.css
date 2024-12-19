@@ -263,7 +263,7 @@ input[type=checkbox] {
     }
 
     #home {
-        height: 6vh;
+        height: 5vh;
     }
 
     #topnav2 {
@@ -363,6 +363,10 @@ input[type=checkbox] {
         font-size: 14px;
         margin-right: 30px;
     }
+
+    .row {
+        padding: 3px 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -407,6 +411,10 @@ input[type=checkbox] {
         width: 80%;
         font-size: 14px;
         margin-right: 30px;
+    }
+
+    .row {
+        padding: 3px 10px;
     }
 }
 
