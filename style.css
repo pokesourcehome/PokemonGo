@@ -267,9 +267,17 @@ input[type=checkbox] {
     }
 
     #topnav2 {
-        height: 10vh;
+        height: 13vh;
         align-items: center;
         justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 10px solid #333;
+        border-bottom: 10px solid #333;
+    }
+
+    #Bot-container {
+        margin: 0px;
     }
 
     /* Titles */
@@ -431,6 +439,10 @@ input[type=checkbox] {
     .result-box ul li {
         font-size: 14px;
     }
+
+    #Bot-container {
+        margin: 0;
+    }
 }
 
 #bottomnav {
@@ -573,6 +585,13 @@ input[type=checkbox] {
     border-bottom: 5px solid #333;
 }
 
+#nav2buttons-3 {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    border-bottom: 5px solid #333;
+}
+
 #attackers {
     display: flex;
     flex-wrap: wrap;
@@ -622,4 +641,54 @@ input[type=checkbox] {
     align-items: center; /* Aligns items vertically within flex container */
     justify-content: center; /* Center items horizontally */
     padding: 10px; /* Padding for better appearance */
+}
+
+.babybot-container {
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid #333;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+#Bot-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
+
+textarea {
+    width: 94.5%;
+    max-width: 94.5%;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#ask-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    border: 3px solid #333;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#ask-button:hover {
+    background-color: #218838;
+}
+
+#response {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#bot-icon {
+    font-size: 100px;
 }

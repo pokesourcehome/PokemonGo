@@ -864,6 +864,7 @@ function Normal() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Perfect() {
@@ -910,6 +911,7 @@ function Perfect() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Shadow() {
@@ -956,6 +958,7 @@ function Shadow() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Dynamax() {
@@ -1002,6 +1005,7 @@ function Dynamax() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Lucky() {
@@ -1048,6 +1052,7 @@ function Lucky() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Shiny() {
@@ -1094,6 +1099,7 @@ function Shiny() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyLucky() {
@@ -1140,6 +1146,7 @@ function ShinyLucky() {
     document.getElementById("pokemon-list-shinylucky").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyLuckyPerfect() {
@@ -1186,6 +1193,7 @@ function ShinyLuckyPerfect() {
     document.getElementById("pokemon-list-shinyluckyperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyCostume() {
@@ -1232,6 +1240,7 @@ function ShinyCostume() {
     document.getElementById("pokemon-list-costumeshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyPurified() {
@@ -1278,6 +1287,7 @@ function ShinyPurified() {
     document.getElementById("pokemon-list-purifiedshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Gigantamax() {
@@ -1324,6 +1334,7 @@ function Gigantamax() {
     document.getElementById("pokemon-list-gigantamax").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyGigantamaxPerfect() {
@@ -1370,6 +1381,7 @@ function ShinyGigantamaxPerfect() {
     document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyImperfectShadow() {
@@ -1416,6 +1428,7 @@ function ShinyImperfectShadow() {
     document.getElementById("pokemon-list-imperfectshinyshadow").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyLocationPerfectBackground() {
@@ -1462,6 +1475,7 @@ function ShinyLocationPerfectBackground() {
     document.getElementById("pokemon-list-locationbackgroundshinyperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinySpecialBackground() {
@@ -1508,6 +1522,7 @@ function ShinySpecialBackground() {
     document.getElementById("pokemon-list-specialbackgroundshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShadowPerfect() {
@@ -1554,6 +1569,7 @@ function ShadowPerfect() {
     document.getElementById("pokemon-list-perfectshadow").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyShadow() {
@@ -1600,6 +1616,7 @@ function ShinyShadow() {
     document.getElementById("pokemon-list-shinyshadow").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyShadowPerfect() {
@@ -1646,6 +1663,7 @@ function ShinyShadowPerfect() {
     document.getElementById("pokemon-list-shinyshadowperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Costume() {
@@ -1692,6 +1710,7 @@ function Costume() {
     document.getElementById("pokemon-list-costume").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function CostumePerfect() {
@@ -1738,6 +1757,7 @@ function CostumePerfect() {
     document.getElementById("pokemon-list-costumeperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyCostumePerfect() {
@@ -1784,6 +1804,7 @@ function ShinyCostumePerfect() {
     document.getElementById("pokemon-list-costumeshinyperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function PurifiedPerfect() {
@@ -1830,6 +1851,7 @@ function PurifiedPerfect() {
     document.getElementById("pokemon-list-purifiedperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyGigantamax() {
@@ -1876,6 +1898,7 @@ function ShinyGigantamax() {
     document.getElementById("pokemon-list-gigantamaxshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Imperfect() {
@@ -1922,6 +1945,7 @@ function Imperfect() {
     document.getElementById("pokemon-list-imperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function LocationBackground() {
@@ -1968,6 +1992,7 @@ function LocationBackground() {
     document.getElementById("pokemon-list-locationbackground").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function LocationBackgroundPerfect() {
@@ -2014,6 +2039,7 @@ function LocationBackgroundPerfect() {
     document.getElementById("pokemon-list-locationbackgroundperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinySpecialBackgroundPerfect() {
@@ -2060,6 +2086,7 @@ function ShinySpecialBackgroundPerfect() {
     document.getElementById("pokemon-list-specialbackgroundshinyperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function DynamaxPerfect() {
@@ -2106,6 +2133,7 @@ function DynamaxPerfect() {
     document.getElementById("pokemon-list-perfectdynamax").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyDynamax() {
@@ -2152,6 +2180,7 @@ function ShinyDynamax() {
     document.getElementById("pokemon-list-shinydynamax").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyDynamaxPerfect() {
@@ -2198,6 +2227,7 @@ function ShinyDynamaxPerfect() {
     document.getElementById("pokemon-list-shinydynamaxperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Purified() {
@@ -2244,6 +2274,7 @@ function Purified() {
     document.getElementById("pokemon-list-purified").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyPurifiedPerfect() {
@@ -2290,6 +2321,7 @@ function ShinyPurifiedPerfect() {
     document.getElementById("pokemon-list-purifiedshinyperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function GigantamaxPerfect() {
@@ -2336,6 +2368,7 @@ function GigantamaxPerfect() {
     document.getElementById("pokemon-list-gigantamaxperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyImperfect() {
@@ -2382,6 +2415,7 @@ function ShinyImperfect() {
     document.getElementById("pokemon-list-imperfectshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyLocationBackground() {
@@ -2428,6 +2462,7 @@ function ShinyLocationBackground() {
     document.getElementById("pokemon-list-locationbackgroundshiny").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function SpecialBackground() {
@@ -2474,6 +2509,7 @@ function SpecialBackground() {
     document.getElementById("pokemon-list-locationspecialbackground").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function SpecialBackgroundPerfect() {
@@ -2520,6 +2556,7 @@ function SpecialBackgroundPerfect() {
     document.getElementById("pokemon-list-locationspecialbackgroundperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function ShinyPerfect() {
@@ -2566,6 +2603,7 @@ function ShinyPerfect() {
     document.getElementById("pokemon-list-shinyperfect").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function LuckyPerfect() {
@@ -2612,6 +2650,7 @@ function LuckyPerfect() {
     document.getElementById("pokemon-list-perfectlucky").style.display = "block";
     document.getElementById("Bulbasaur-container").style.display = "none";
     document.getElementById("mega-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function home() {
@@ -2662,6 +2701,8 @@ function home() {
     document.getElementById("attackers-container").style.display = "none";
     document.getElementById("nav2buttons-1").style.borderBottomColor = "#333";
     document.getElementById("nav2buttons-2").style.borderBottomColor = "#333";
+    document.getElementById("nav2buttons-3").style.borderBottomColor = "#333";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function Bulbasaur() {
@@ -2710,6 +2751,7 @@ function Bulbasaur() {
     document.getElementById("mega-container").style.display = "none";
     document.getElementById("attackers-container").style.display = "none";
     document.getElementById("main-container").style.display = "none";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function openLeekduck1() {
@@ -2731,6 +2773,7 @@ function openLeekduck4() {
 function checklist() {
     document.getElementById("nav2buttons-1").style.borderBottomColor = "white";
     document.getElementById("nav2buttons-2").style.borderBottomColor = "#333";
+    document.getElementById("nav2buttons-3").style.borderBottomColor = "#333";
     document.getElementById("pokemon-list").style.display = "none";
     document.getElementById("pokemon-list-perfect").style.display = "none";
     document.getElementById("pokemon-list-shadow").style.display = "none";
@@ -2776,11 +2819,13 @@ function checklist() {
     document.getElementById("mega-container").style.display = "block";
     document.getElementById("main-container").style.display = "none";
     document.getElementById("attackers-container").style.display = "none";
+    document.getElementById("Bot-container").style.display = "none";
 }
 
 function attackers() {
     document.getElementById("nav2buttons-1").style.borderBottomColor = "#333";
     document.getElementById("nav2buttons-2").style.borderBottomColor = "white";
+    document.getElementById("nav2buttons-3").style.borderBottomColor = "#333";
     document.getElementById("pokemon-list").style.display = "none";
     document.getElementById("pokemon-list-perfect").style.display = "none";
     document.getElementById("pokemon-list-shadow").style.display = "none";
@@ -2826,4 +2871,73 @@ function attackers() {
     document.getElementById("mega-container").style.display = "none";
     document.getElementById("main-container").style.display = "none";
     document.getElementById("attackers-container").style.display = "block";
+    document.getElementById("Bot-container").style.display = "none";
 }
+
+function bot() {
+    document.getElementById("nav2buttons-1").style.borderBottomColor = "#333";
+    document.getElementById("nav2buttons-2").style.borderBottomColor = "#333";
+    document.getElementById("nav2buttons-3").style.borderBottomColor = "white";
+    document.getElementById("pokemon-list").style.display = "none";
+    document.getElementById("pokemon-list-perfect").style.display = "none";
+    document.getElementById("pokemon-list-shadow").style.display = "none";
+    document.getElementById("pokemon-list-dynamax").style.display = "none";
+    document.getElementById("pokemon-list-lucky").style.display = "none";
+    document.getElementById("pokemon-list-shiny").style.display = "none";
+    document.getElementById("big-pokemoncount-container").style.display = "flex";
+    document.getElementById("title-container").style.display = "block";
+    document.getElementById("pokemon-list-shinylucky").style.display = "none";
+    document.getElementById("pokemon-list-shinyluckyperfect").style.display = "none";
+    document.getElementById("pokemon-list-costumeshiny").style.display = "none";
+    document.getElementById("pokemon-list-purifiedshiny").style.display = "none";
+    document.getElementById("pokemon-list-gigantamax").style.display = "none";
+    document.getElementById("pokemon-list-shinyperfect").style.display = "none";
+    document.getElementById("pokemon-list-locationspecialbackgroundperfect").style.display = "none";
+    document.getElementById("pokemon-list-locationspecialbackground").style.display = "none";
+    document.getElementById("pokemon-list-locationbackgroundshiny").style.display = "none";
+    document.getElementById("pokemon-list-imperfectshiny").style.display = "none";
+    document.getElementById("pokemon-list-gigantamaxperfect").style.display = "none";
+    document.getElementById("pokemon-list-purifiedshinyperfect").style.display = "none";
+    document.getElementById("pokemon-list-purified").style.display = "none";
+    document.getElementById("pokemon-list-shinydynamaxperfect").style.display = "none";
+    document.getElementById("pokemon-list-shinydynamax").style.display = "none";
+    document.getElementById("pokemon-list-perfectdynamax").style.display = "none";
+    document.getElementById("pokemon-list-specialbackgroundshinyperfect").style.display = "none";
+    document.getElementById("pokemon-list-locationbackgroundperfect").style.display = "none";
+    document.getElementById("pokemon-list-locationbackground").style.display = "none";
+    document.getElementById("pokemon-list-imperfect").style.display = "none";
+    document.getElementById("pokemon-list-gigantamaxshiny").style.display = "none";
+    document.getElementById("pokemon-list-purifiedperfect").style.display = "none";
+    document.getElementById("pokemon-list-costumeshinyperfect").style.display = "none";
+    document.getElementById("pokemon-list-costumeperfect").style.display = "none";
+    document.getElementById("pokemon-list-costume").style.display = "none";
+    document.getElementById("pokemon-list-shinyshadowperfect").style.display = "none";
+    document.getElementById("pokemon-list-shinyshadow").style.display = "none";
+    document.getElementById("pokemon-list-perfectshadow").style.display = "none";
+    document.getElementById("pokemon-list-specialbackgroundshiny").style.display = "none";
+    document.getElementById("pokemon-list-locationbackgroundshinyperfect").style.display = "none";
+    document.getElementById("pokemon-list-imperfectshinyshadow").style.display = "none";
+    document.getElementById("pokemon-list-gigantamaxperfectshiny").style.display = "none";
+    document.getElementById("pokemon-list-perfectlucky").style.display = "none";
+    document.getElementById("Bulbasaur-container").style.display = "none";
+    document.getElementById("mega-container").style.display = "none";
+    document.getElementById("main-container").style.display = "none";
+    document.getElementById("attackers-container").style.display = "none";
+    document.getElementById("Bot-container").style.display = "flex";
+}
+
+document.getElementById('ask-button').addEventListener('click', function() {
+    const userInput = document.getElementById('user-input').value.toLowerCase();
+    let answer = "I'm sorry, I don't have an answer for that.";
+
+    if (userInput.includes('best pokemon')) {
+        answer = "There is no pokemon justified as the best but the most recommended pokemon to have is Mewtwo.";
+    } else if (userInput.includes('find pokemon')) {
+        answer = "Locations are mostly based on events and spawns but you can always check community sites for tips and tricks.";
+    } else if (userInput.includes('find a pokemon')) {
+        answer = "Locations are mostly based on events and spawns but you can always check community sites for tips and tricks.";
+    }
+
+    document.getElementById('response').innerText = answer;
+    document.getElementById('user-input').value = '';
+});

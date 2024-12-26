@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Checklist</title>
+    <title>PokemonGo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -28,6 +28,8 @@
     <button id="nav2buttons-1" onclick="checklist()">Checklist</button>
     <br>
     <button id="nav2buttons-2" onclick="attackers()">Power-Up</button>
+    <br>
+    <button id="nav2buttons-3" onclick="bot()">Questions</button>
 </nav>
 <div id="main-container">
     <div id="small-main-container">
@@ -4557,6 +4559,14 @@
         </ul>
       </section>
   </div>
+</div>
+<div id="Bot-container" hidden>
+    <div class="babybot-container">
+        <h1><i class="fa-solid fa-robot" id="bot-icon"></i><br><br>Mr. PokéSource</h1>
+        <textarea id="user-input" placeholder="Ask Pokemon Go questions to Mr. PokéSource..." rows="5"></textarea>
+        <button id="ask-button">Ask Mr. PokéSource</button>
+        <div id="response"></div>
+    </div>
 </div>
     <nav id="bottomnav">
         <h3 id="title2">If you have any tips or see some mistakes then contact us here:
