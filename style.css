@@ -276,10 +276,6 @@ input[type=checkbox] {
         border-bottom: 10px solid #333;
     }
 
-    #Bot-container {
-        margin: 0px;
-    }
-
     /* Titles */
     #title1 {
         font-size: 50px;
@@ -375,23 +371,36 @@ input[type=checkbox] {
     .search-box input {
         font-size: 14px;
     }
+
+    textarea {
+        width: 225px;
+        max-width: 225px;
+    }
+
+    #ask-button {
+        width: 225px;
+    }
+
+    .babybot-container {
+        width: 250px;
+    }
 }
 
 @media (max-width: 480px) {
     #title1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #title2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #title3, #title3small {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #title4 {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -438,10 +447,6 @@ input[type=checkbox] {
 
     .result-box ul li {
         font-size: 14px;
-    }
-
-    #Bot-container {
-        margin: 0;
     }
 }
 
@@ -649,19 +654,24 @@ input[type=checkbox] {
     border: 5px solid #333;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
     width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #Bot-container {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 100px;
+    margin: 50px;
 }
 
 textarea {
-    width: 94.5%;
-    max-width: 94.5%;
+    width: 90%;
+    max-width: 90%;
     padding: 10px 10px;
     margin-top: 10px;
     border: 1px solid #ccc;
@@ -669,7 +679,7 @@ textarea {
 }
 
 #ask-button {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     background-color: #28a745;
     color: white;
